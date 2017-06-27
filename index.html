@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Session7 Ass1</title>
+        <!-- modify the style.css inside css folder -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- Main Div started-->
+        <div id="maindiv">
+            <h2>Helpful Notes in Form Inputs : </h2><hr>
+            <br>
+            <h5>
+                
+            </h5>
+            <!-- this button will call function to increment the global varible three times-->
+            <div>
+                <form>
+                    <p id="helptext">Helpful Notes will appear here</p>
+                    <div>
+                         E-MAIL : <input type="email" name="email" id="email" onclick="help(this.id)"/>
+                    </div>
+                    <div>
+                        NAME : <input type="text" name="name" id="name" onclick="help(this.id)"/>
+                    </div>
+                    <div>
+                         AGE :  <input type="number" name="age" id="age" onclick="help(this.id)"/>
+                    </div>
+                </form>
+            </div>
+            <!-- Result Div-->
+            <!--<div id="result">
+                <h4>The Value of Global Variable n = <span id="var"></span></h4>
+            </div>-->
+        </div>
+        <!-- javascript codes are written in main.js file of js folder -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
